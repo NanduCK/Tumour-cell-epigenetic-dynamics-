@@ -1,4 +1,4 @@
-# Tumour-cell-dynamics-
+# Tumour-cell-epigenetic-dynamics
 
 #Stochastic Modelling of EMT and Drug Resistance
 
