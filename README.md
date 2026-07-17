@@ -12,7 +12,9 @@ The codebase is modularised into three distinct functions:
 
 ```text
 ├── src/                        # Core mathematical engine
-│   └── main_SSA_ensemble.m     # Gillespie (SSA) engine for chromatin transitions
+│   ├── fl.m                    # Linear Feedback condition
+    ├── fnl.m                   # Non-linear Feedback     
+    └── main_SSA_ensemble.m     # Gillespie (SSA) engine for chromatin transitions
 ├── experiments/                # Controllers for generating simulation data
 │   ├── run_ensemble.m          # Base ensemble generation
 │   ├── run_sweep.m             # Parameter sweeping for repressive methylation
