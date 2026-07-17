@@ -13,12 +13,12 @@ The codebase is modularised into three distinct functions:
 ```text
 ├── src/                        # Core mathematical engine
 │   ├── fl.m                    # Linear Feedback condition
-    ├── fnl.m                   # Non-linear Feedback     
-    └── main_SSA_ensemble.m     # Gillespie (SSA) engine for chromatin transitions
+│   ├── fnl.m                   # Non-linear Feedback     
+│   └── main_SSA_ensemble.m     # Gillespie (SSA) engine for chromatin transitions
 ├── experiments/                # Controllers for generating simulation data
 │   ├── run_ensemble.m          # Base ensemble generation
 │   ├── run_sweep.m             # Parameter sweeping for repressive methylation
-│   ├── run_master_bottleneck.m # Population dynamics simulations
+│   ├── run_master_dtp.m        # Population dynamics simulations
 │   └── run_trajectory_proof.m  # Visual tracing of persister cell origins
 └── analysis/                   # Analytics and visualisation scripts
     ├── analyze_kinetics.m      # Autocorrelation and residence time mapping
