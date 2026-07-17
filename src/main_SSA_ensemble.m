@@ -26,7 +26,7 @@ function [t_grid, A_interp, R_interp] = main_SSA_ensemble(f,ka,kr,da,dr,eka,ekr,
 % X: initial condition
 % rho: reduced A2 or R2 mediated positive feedback strength, not used.
 %
-% By Wei Zhao & Lingxia Qiao (2021)
+% By Wei Zhao & Lingxia Qiao (2021), updated by Nandu C K in 2026
 
 K=[2 2]/60; % the Hill coefficient used for the nonlinear feedback
 
